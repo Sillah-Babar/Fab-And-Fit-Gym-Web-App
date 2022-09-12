@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FAB AND FIT GYM</title>
+	</head>
+    <meta name="viewport" content="width=device-width, initial-scale=5">
+<style>
+    img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.vertical-menu {
+  width: 400px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color:lightseagreen;
+  color: white;
+}
+.rectangle {
+  height: 100px;
+  width: 2000px;
+  background-color: lightskyblue;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.button {
+  background-color: mediumslateblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+    <script>
+        var canvas = document.getElementById("DemoCanvas");
+        if (canvas.getContext) 
+        {
+          var ctx = canvas.getContext('2d');
+          ctx.fillStyle='#fa4b2a';    // color of fill
+          ctx.fillRect(10, 40, 140, 160); // create rectangle  
+        }
+        </script>
+
+	<body style="background-color:darkslateblue;">
+        <div class="rectangle">
+        
+   </div>
+   <img src="https://th.bing.com/th/id/R1f1f3e33f0c9b8baf6dc9e32a8c3b883?rik=IHRK2xYf21YfkQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2018%2f04%2fGym-Free-Download-PNG.png&ehk=nmd8pGVhIBeJ2OtYybf8QSC13m833qi9TvskO%2boi4mQ%3d&risl=&pid=ImgRaw" class="center"> 
+  <br>
+ 
+
+<center>
+    <div class="vertical-menu">
+        <a href="#" class="active">FAB AND FIT</a>
+        <a href="http://localhost:100/insert-equipment.php">Insert New Equipment!</a>
+        <a href="http://localhost:100/all-members.php">View All Enrolled Members</a>
+      </div>
+    </center>
+    </body>
+
+    </html>
